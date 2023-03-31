@@ -1,10 +1,16 @@
 .container{
     display: flex;
+    background-color: rgb(29, 28, 28);
+}
+.container button{
+    height: 50px;
+    width: 200px;
 }
 .sidebar{
     width:fit-content;
     height: 95vh;
-    background-color: blueviolet;
+    background-color: gray;
+    padding: 10px;
     margin: 0 50px 0 0; 
 }
 .select-base ul{
@@ -50,6 +56,24 @@
 .topping-select{
     position: absolute;
 }
+.topping-select img{
+    position: absolute;
+}
 .select-topping{
     display: none;
+}
+#topping1,
+#topping2,
+#topping3{
+    display: none;
+}
+.pizza-show{
+    margin-left: 170px;
+}
+.pizza-show h1{
+    margin-left: 130px;
+    color: white;
+}
+.pizza-show button{
+    margin: 270px 0 0 800px;
 }
