@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+}
+.sidebar{
+    width:fit-content;
+    height: 95vh;
+    background-color: blueviolet;
+    margin: 0 50px 0 0; 
+}
+.select-base ul{
+    list-style-type: none;
+}
+.base1{
+    background-image: url("./img/base1.png");
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+}
+.base2{
+    background-image: url("./img/base2.png");
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+}
+.topping1{
+    background-image: url("./img/topping1.png");
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+}
+.topping2{
+    background-image: url("./img/topping2.png");
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+}
+.topping3{
+    background-image: url("./img/topping3.png");
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+}
+.img-wrapper{
+    cursor: pointer;
+}
+#topping-select{
+    border: none;
+}
+.base-select, 
+.topping-select{
+    position: absolute;
+}
+.select-topping{
+    display: none;
+}
